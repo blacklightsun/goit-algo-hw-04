@@ -65,5 +65,5 @@ for func in func_tuple:
         (timeit.timeit(func + "(test_list)", setup=s, number=1, globals=globals())), 5
     )
     print(
-        f"Час сортування списку з {list_len} елементів від 1 до {max_number} по методу '{func:15s}' склав {res} секунд"
+        f"Час сортування списку з {list_len} елементів від 1 до {max_number} по методу '{func:15s}' склав {res} секунд."
     )
